@@ -1,0 +1,106 @@
+section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.box1 {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(97, 22, 167);
+}
+
+.box2 {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(226, 43, 141);
+}
+
+.sect2box {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(106, 197, 183);
+}
+
+.twoleft {
+    display: flex;
+    align-items: end;
+}
+
+.tworight {
+    display: flex;
+    justify-content: end;
+}
+
+.box3 {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(177, 212, 236);
+}
+
+.box4 {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(36, 51, 165);
+}
+
+.sect3box {
+    width: 33%;
+    height: 100%;
+    background-color: rgb(20, 90, 79);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.threemid {
+    background-color: rgb(3, 36, 37);
+}
+
+.box5 {
+    width: 33%;
+    height: 50%;
+    background-color: rgb(133, 229, 173);
+}
+
+.sect4box {
+    width: 25%;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.foursecond {
+    background-color: rgb(226, 43, 116);
+}
+
+.fourfourth {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.box6 {
+    height: 50%;
+    width: 100%;
+    background-color: rgb(226, 157, 157);
+    align-items: start;
+}
+
+.box7 {
+    height: 50%;
+    width: 100%;
+    background-color:  blueviolet;
+    align-items: end;
+}
